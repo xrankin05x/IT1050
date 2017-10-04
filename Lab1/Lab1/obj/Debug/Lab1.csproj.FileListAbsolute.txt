@@ -1,0 +1,7 @@
+C:\Users\kimra\Desktop\Lab1\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\kimra\Desktop\Lab1\Lab1\bin\Debug\Lab1.exe
+C:\Users\kimra\Desktop\Lab1\Lab1\bin\Debug\Lab1.pdb
+C:\Users\kimra\Desktop\Lab1\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+C:\Users\kimra\Desktop\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\kimra\Desktop\Lab1\Lab1\obj\Debug\Lab1.exe
+C:\Users\kimra\Desktop\Lab1\Lab1\obj\Debug\Lab1.pdb
