@@ -16,7 +16,7 @@ namespace Lab_2_Kim_R
             person1.Age = 75;
             person1.MaritalStatus = "yes";
             person1.Spouse = "Sarah";
-            person1.AgeSpouse = 70;
+            person1.AgeSpouse = 65;
 
             Person person2 = new Person();
             person2.FirstName = "Rudolph";
@@ -24,7 +24,7 @@ namespace Lab_2_Kim_R
             person2.Age = 35;
             person2.MaritalStatus = "yes";
             person2.Spouse = "Ruby";
-            person2.AgeSpouse = 33;
+            person2.AgeSpouse = 35;
 
 
             
