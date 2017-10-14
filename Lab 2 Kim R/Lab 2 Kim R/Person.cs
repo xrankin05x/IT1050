@@ -11,16 +11,19 @@ namespace Lab_2_Kim_R
         public string FirstName;
         public string LastName;
         public int Age;
-        public string MaritalStatus;
-        public string Spouse;
-        public int SpouseAge;
+        
+        
         public string GetFullName()
         {
-            return this.FirstName + ". " + this.LastName;
+            string fullName = "";
+            fullName += this.FirstName;
+            fullName += "  ";
+            fullName += this.LastName;
+            return fullName;
 
                  }
 
-        public int GetSumOfAllAges()
+        public double GetSumOfAllAges()
         {
             return this.Age + SpouseAge;
         }

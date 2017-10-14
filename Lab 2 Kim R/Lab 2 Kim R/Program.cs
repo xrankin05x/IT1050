@@ -13,18 +13,13 @@ namespace Lab_2_Kim_R
             Person person1 = new Person();
             person1.FirstName = "Santa";
             person1.LastName = "Claus";
-            person1.Age = 75;
-            person1.MaritalStatus = "yes";
-            person1.Spouse = "Sarah";
-            person1.SpouseAge = 65;
+            person1.Age = 75;            
 
             Person person2 = new Person();
             person2.FirstName = "Rudolph";
             person2.LastName = "Reindeer";
             person2.Age = 35;
-            person2.MaritalStatus = "yes";
-            person2.Spouse = "Ruby";
-            person2.SpouseAge = 35;
+            
 
 
             
