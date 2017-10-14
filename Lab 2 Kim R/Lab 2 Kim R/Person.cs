@@ -13,19 +13,23 @@ namespace Lab_2_Kim_R
         public int Age;
         public string MaritalStatus;
         public string Spouse;
-        public int AgeSpouse;
+        public int SpouseAge;
         public string GetFullName()
         {
-            return this.FirstName + "" +this.LastName;
-          
-        }
+            return this.FirstName + ". " + this.LastName;
+
+                 }
 
         public int GetSumOfAllAges()
         {
-            return this.Age ;
+            return this.Age + SpouseAge;
         }
+        public void PrintNameAndAge()
 
-
+            
+        {
+            System.Console.WriteLine(this.FullName() 
+                        }
 
         
 

@@ -16,15 +16,15 @@ namespace Lab_2_Kim_R
             person1.Age = 75;
             person1.MaritalStatus = "yes";
             person1.Spouse = "Sarah";
-            person1.AgeSpouse = 65;
+            person1.SpouseAge = 65;
 
             Person person2 = new Person();
             person2.FirstName = "Rudolph";
-            person2.LastName = "Deer";
+            person2.LastName = "Reindeer";
             person2.Age = 35;
             person2.MaritalStatus = "yes";
             person2.Spouse = "Ruby";
-            person2.AgeSpouse = 35;
+            person2.SpouseAge = 35;
 
 
             
@@ -35,7 +35,7 @@ namespace Lab_2_Kim_R
             System.Console.WriteLine(person1.GetSumOfAllAges());
             System.Console.WriteLine(person2.GetSumOfAllAges());
 
-            System.Console.WriteLine("Press any key. ..");
+            System.Console.WriteLine("Press any key to continue...");
             System.Console.ReadKey();
 
 
