@@ -17,9 +17,7 @@ namespace Lab_3
             this.FirstName = theirFirstName;
             this.Teacher = theirTeacher;
 
-         public 
-
-            System.Console.WriteLine();
+                  
         }
     }
 }

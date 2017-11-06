@@ -10,19 +10,19 @@ namespace Lab_3
     {
         static void Main(string[] args)
         {
-            Instructor John = new Instructor("John", "Smith", "English");
-            Instructor Mike = new Instructor("Mike", "Johnson", "Math");
+            Instructor John = new Instructor("John",  "Smith",  "English");
+            Instructor Mike = new Instructor("Mike",  "Johnson",  "Math");
 
-            Student Jane = new Student("Jane", "Lane", "Mr. John");
-            Student Joe = new Student("Joe", "Road", "Mr. John");
-            Student Melissa = new Student("Melissa", "Court", "Mr. Mike");
-            Student Matt = new Student("Matt", "Avenue", "Mr. Mike");
-
-            string Instructor = 
+            Student Jane = new Student("Jane", "Mr. John");
+            Student Joe = new Student("Joe", "Mr. John");
+            Student Melissa = new Student("Melissa", "Mr. Mike");
+            Student Matt = new Student("Matt", "Mr. Mike");
 
 
 
-            System.Console.WriteLine(FullName);
+
+
+            System.Console.WriteLine();
             System.Console.ReadKey();
 
         }

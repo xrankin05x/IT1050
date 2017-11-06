@@ -19,11 +19,12 @@ namespace Lab_3
             this.FirstName = theirFirstName;
             this.LastName = theirLastName;
             this.CourseName = theirCourseName;
+
+            System.Console.WriteLine(this.FirstName + this.LastName + this.CourseName);
+
         }
-        public string SetStudentGrade(string Student, int Grade);
-        {
-            return this.Student + " " + this.Grade;
-                       
+               
+
             
         }
 
@@ -31,4 +32,4 @@ namespace Lab_3
         
 
     }
-}
+
