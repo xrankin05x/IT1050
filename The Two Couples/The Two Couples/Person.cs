@@ -18,7 +18,7 @@ namespace The_Two_Couples
         public static double SumOfAllAges;
 
 
-        public string GetFullName()
+          public string GetFullName()
         {
             string fullName = "";
             fullName += this.FirstName;
@@ -30,7 +30,7 @@ namespace The_Two_Couples
             
                 public int AverageAllAges()
         {
-            return this.Age + YearsOld / 4;
+            return this.Age + YearsOld + Age +YearsOld ;
         }
            public void PrintNameAndAge()
         {

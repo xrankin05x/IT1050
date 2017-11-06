@@ -11,8 +11,8 @@ namespace Lab_2_Kim_R
         public string FirstName;
         public string LastName;
         public int Age;
-        
-        
+        public string Spouse;
+
         public string GetFullName()
         {
             string fullName = "";
@@ -21,23 +21,35 @@ namespace Lab_2_Kim_R
             fullName += this.LastName;
             return fullName;
 
-                 }
+                    }
 
-        public double GetSumOfAllAges()
+        public void NameAndAge()
         {
-            return this.Age + SpouseAge;
+            System.Console.WriteLine(this.FirstName + Age);
         }
-        public void PrintNameAndAge()
-
             
-        {
-            System.Console.WriteLine(this.FullName() 
+
+
+        
+            
                         }
+    }
+            
+        
+            
+
+                 }  
+
+        
+        
+           
+        
+        
 
         
 
 
 
 
-    }
-}
+    
+
