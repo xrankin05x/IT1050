@@ -25,9 +25,9 @@ namespace The_Two_Couples
             person2.MartialStatus = "yes";
             person2.Spouse = "Rose";
             person2.YearsOld = 40;
+            double avgage = (person1.Age + person1.YearsOld + person2.Age + person2.YearsOld) / 4;
 
-
-
+            Console.WriteLine("Average Age:"+avgage);
             person1.PrintNameAndAge();
             person2.PrintNameAndAge();
 
