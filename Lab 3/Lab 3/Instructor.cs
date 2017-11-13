@@ -21,18 +21,19 @@ namespace Lab_3
             this.CourseName = theirCourseName;
 
 
-              
+
 
 
             System.Console.WriteLine(this.FirstName + this.LastName + this.CourseName);
-                
+
+        }
+        public void SetStudentGrade(Student student, int grade)
+        {
+            student.Grade = grade;
         }
 
-        
-    }
-
 
 
 
     }
-
+}

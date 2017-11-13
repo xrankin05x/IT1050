@@ -26,11 +26,15 @@ namespace Lab_3
 
         }
 
-        
+        public void SetGrade(Student student, int grade)
+        {
+            student.Grade = grade;
+        }
+         
         
             
           
              
-            }
-        }
+    }
+ }
    

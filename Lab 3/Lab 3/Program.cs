@@ -25,10 +25,13 @@ namespace Lab_3
 
 
 
-            System.Console.WriteLine();
+            System.Console.WriteLine(John.FirstName + " " + John.LastName + " " + John.CourseName);
             System.Console.WriteLine("Press any key to continue...");
             System.Console.ReadKey();
 
         }
+        
+
+
+        }
     }
-}
