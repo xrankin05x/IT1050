@@ -12,7 +12,7 @@ namespace Lab_3
         public string LastName;
         public string CourseName;
         public int Grade;
-
+        public string StudentName;
 
         public Instructor(string theirFirstName, string theirLastName, string theirCourseName)
         {
@@ -20,16 +20,19 @@ namespace Lab_3
             this.LastName = theirLastName;
             this.CourseName = theirCourseName;
 
+
+              
+
+
             System.Console.WriteLine(this.FirstName + this.LastName + this.CourseName);
-
-        }
-               
-
-            
-        }
-
                 
+        }
+
         
+    }
+
+
+
 
     }
 
