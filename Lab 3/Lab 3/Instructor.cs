@@ -24,7 +24,7 @@ namespace Lab_3
 
 
 
-            System.Console.WriteLine(this.FirstName + this.LastName + this.CourseName);
+            System.Console.WriteLine(this.FirstName + " " + this.LastName + " "+ this.CourseName);
 
         }
         public void SetStudentGrade(Student student, int grade)

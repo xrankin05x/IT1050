@@ -21,7 +21,7 @@ namespace Lab_3
 
             
             
-            System.Console.WriteLine(this.StudentName + this.Grade + this.Teacher);
+            System.Console.WriteLine(this.StudentName + " " + this.Grade + " " + this.Teacher);
 
 
         }
