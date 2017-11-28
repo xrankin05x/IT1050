@@ -19,7 +19,19 @@ namespace Lab_4_second_try
 
             Console.Write("Enter a number: ");
 
-          
+            double smallSoda = 3.50;
+            double largeSoda = 5.99;
+            double hotDog = 3.99;
+            double popCorn = 4.50;
+            double candy = 1.99;
+
+            int smallSodaCount = 0;
+            int largeSodaCount = 0;
+            int hotDogCount = 0;
+            int popcornCount = 0;
+            int candyCount = 0;
+
+
             double totalTicketCost = 0;
             double totalFoodCost = 0;
 
@@ -67,7 +79,27 @@ namespace Lab_4_second_try
 
             }
 
+            {
+                System.Console.Write("How many small sodas? ");
+                smallSoda = double.Parse(System.Console.ReadLine());
 
+                System.Console.Write("How many large sodas? ");
+                largeSoda = double.Parse(System.Console.ReadLine());
+
+                System.Console.Write("How many hot dogs? ");
+                hotDog = double.Parse(System.Console.ReadLine());
+
+                System.Console.Write("How many Popcorn? ");
+                popCorn = double.Parse(System.Console.ReadLine());
+
+                System.Console.Write("How many candy? ");
+                candy = double.Parse(System.Console.ReadLine());
+
+                //Discounts //
+
+                System.Math.Min(double.popCorn, double.largeSoda);
+
+            }
 
 
             private static void ShowMainMenu()
