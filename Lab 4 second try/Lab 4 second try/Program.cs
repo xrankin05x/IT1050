@@ -13,7 +13,7 @@ namespace Lab_4_second_try
 
         static void Main(string[] args)
         { ShowMainMenu();
-            ShowInputPrompt();
+          ShowInputPrompt();
 
             string command = Console.ReadLine();
 
@@ -70,8 +70,7 @@ namespace Lab_4_second_try
                 Console.Write("How many senior evening");
                 int seniorMatinee = int.Parse(Console.ReadLine());
 
-                double totalTicketCost = childCost + adultCost + seniorCost;
-
+                
                 Console.WriteLine();
                 Console.WriteLine(" Press any key to continue...");
                 Console.WriteLine();
@@ -102,42 +101,59 @@ namespace Lab_4_second_try
                 totalFoodCost += popcornCount * popCorn;
                 totalFoodCost += candyCount * candy;
 
-               
 
-                    //Discounts //
-
-                    Console.WriteLine("Number of candy / 4 * 1.99");
-                Console.WriteLine("Number of candy / 4 * 1.99");
-                Console.WriteLine();
-                Console.WriteLine(" Press any key to continue...");
-                Console.WriteLine();
-                Console.WriteLine(" ");
-                Console.ReadKey();
+                //Discounts //
+                double firstDiscount = 0;
+                double secondDiscount = 0;
+                double thirdDiscount = 0;
 
 
-            }
+                if (popcornCount >= 1 && largeSodaCount >= 1 && totalTicketCount >= 1)                                    
 
+                if (popcornCount >= 1 && largeSodaCount >= 1) 
+                {
+                    if (popcornCount <= largeSodaCount)
+                    {
+                        firstDiscount = popcornCount + largeSodaCount * 2;
+                    }    
+                    // Discout 2
+                    if (totalTicketCount >= 3 && popcornCount >= 1)
+                        {
+                            secondDiscount = totalTicketCount + popcornCount - 4.50;
 
+                        }                                                                          
+                    //Discount 3
+                    if (candyCount >= 4)
+                        {
+                            thirdDiscount = candyCount - 1.99;
+                        }
+                                                                                                     
+                                                     
+                                           
+                        
+                        Console.WriteLine("Number of candy / 4 * 1.99");
+                        Console.WriteLine();
+                        Console.WriteLine(" Press any key to continue...");
+                        Console.WriteLine();
+                        Console.WriteLine(" ");
+                        Console.ReadKey();
+                }
+                        
+                private static void ShowMainMenu()
+                    { 
+                    Console.WriteLine();
+                    Console.WriteLine("+------------------------------------------+");
+                    Console.WriteLine("| Please choose from the follwing options:|" );
+                    Console.WriteLine("+------------------------------------------+");
+                    Console.WriteLine("| (1) - Matinee Tickets                     ");
+                    Console.WriteLine("| (2) - Evening Tickets                     ");
+                    Console.WriteLine("+------------------------------------------+");
+                    }
 
-
-
-        }
-        private static void ShowMainMenu()
-        { 
-
-                Console.WriteLine();
-                Console.WriteLine("+------------------------------------------+");
-                Console.WriteLine("| Please choose from the follwing options:|" );
-                Console.WriteLine("+------------------------------------------+");
-                Console.WriteLine("| (1) - Matinee Tickets                     ");
-                Console.WriteLine("| (2) - Evening Tickets                     ");
-                Console.WriteLine("+------------------------------------------+");
-            }
-
-        private static void ShowInputPrompt()
-        {
-            Console.WriteLine();
-            Console.Write("--->");
-        }
+                private static void ShowInputPrompt()
+                    {
+                    Console.WriteLine();
+                    Console.Write("--->");
+                  }
     }
 }
