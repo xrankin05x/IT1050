@@ -8,11 +8,11 @@ namespace Lab_4_second_try
 {
     class Program
     {
-        
 
-        
+
+
         static void Main(string[] args)
-        {   ShowMainMenu();
+        { ShowMainMenu();
             ShowInputPrompt();
 
             string command = Console.ReadLine();
@@ -32,15 +32,16 @@ namespace Lab_4_second_try
             int candyCount = 0;
 
 
-            double totalTicketCost = 0;
+            double totalTicketCount = 0;
             double totalFoodCost = 0;
 
             if (command == "1")
-            { 
+            {
                 double childCost = 3.99;
                 double adultCost = 5.99;
                 double seniorCost = 4.50;
-            
+
+
                 Console.WriteLine();
                 Console.Write("How many child matinee");
                 int childMatinee = int.Parse(Console.ReadLine());
@@ -51,9 +52,9 @@ namespace Lab_4_second_try
                 Console.Write("How many senior matinee");
                 int seniorMatinee = int.Parse(Console.ReadLine());
 
-                double totalTicketCount = childCost + adultCost + seniorCost;
+                double totalTicketCost = childCost + adultCost + seniorCost;
             }
-            else if ( command == "2" )
+            else if (command == "2")
             {
                 double childCost = 6.99;
                 double adultCost = 10.99;
@@ -69,7 +70,7 @@ namespace Lab_4_second_try
                 Console.Write("How many senior evening");
                 int seniorMatinee = int.Parse(Console.ReadLine());
 
-                double totalTicketCount = childCost + adultCost + seniorCost;
+                double totalTicketCost = childCost + adultCost + seniorCost;
 
                 Console.WriteLine();
                 Console.WriteLine(" Press any key to continue...");
@@ -81,29 +82,49 @@ namespace Lab_4_second_try
 
             {
                 System.Console.Write("How many small sodas? ");
-                smallSoda = double.Parse(System.Console.ReadLine());
+                smallSoda = int.Parse(System.Console.ReadLine());
 
                 System.Console.Write("How many large sodas? ");
-                largeSoda = double.Parse(System.Console.ReadLine());
+                largeSoda = int.Parse(System.Console.ReadLine());
 
                 System.Console.Write("How many hot dogs? ");
-                hotDog = double.Parse(System.Console.ReadLine());
+                hotDog = int.Parse(System.Console.ReadLine());
 
                 System.Console.Write("How many Popcorn? ");
-                popCorn = double.Parse(System.Console.ReadLine());
+                popCorn = int.Parse(System.Console.ReadLine());
 
                 System.Console.Write("How many candy? ");
-                candy = double.Parse(System.Console.ReadLine());
+                candy = int.Parse(System.Console.ReadLine());
 
-                //Discounts //
+                totalFoodCost += smallSodaCount * smallSoda;
+                totalFoodCost += largeSodaCount * largeSoda;
+                totalFoodCost += hotDogCount * hotDog;
+                totalFoodCost += popcornCount * popCorn;
+                totalFoodCost += candyCount * candy;
 
-                System.Math.Min(double.popCorn, double.largeSoda);
+               
+
+                    //Discounts //
+
+                    Console.WriteLine("Number of candy / 4 * 1.99");
+                Console.WriteLine("Number of candy / 4 * 1.99");
+                Console.WriteLine();
+                Console.WriteLine(" Press any key to continue...");
+                Console.WriteLine();
+                Console.WriteLine(" ");
+                Console.ReadKey();
+
 
             }
 
 
-            private static void ShowMainMenu()
-            {
+
+
+
+        }
+        private static void ShowMainMenu()
+        { 
+
                 Console.WriteLine();
                 Console.WriteLine("+------------------------------------------+");
                 Console.WriteLine("| Please choose from the follwing options:|" );
@@ -111,13 +132,12 @@ namespace Lab_4_second_try
                 Console.WriteLine("| (1) - Matinee Tickets                     ");
                 Console.WriteLine("| (2) - Evening Tickets                     ");
                 Console.WriteLine("+------------------------------------------+");
-                
             }
-        }
 
         private static void ShowInputPrompt()
         {
-            throw new NotImplementedException();
+            Console.WriteLine();
+            Console.Write("--->");
         }
     }
 }
