@@ -37,7 +37,7 @@ namespace Almost_Chess
             {
                 for (int k = 0; k < size; k++)
                 {
-                    board[i][k] = (i < 0 | i > 0) ? "X " : " ";                  
+                    board[i][k] = (i < 2 | i > 5) ? "X " : " ";                  
                 }
                 if (i <= 2 && i >= 5)
                 {
