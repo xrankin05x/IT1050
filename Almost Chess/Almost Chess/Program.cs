@@ -50,9 +50,15 @@ namespace Almost_Chess
         {
             for (int i = 0; i < size; i++)
             {
+                for (int i; i < row; row++)
+                {
+                    for ( int j; j < column; column++)
+                }
+
+
                 System.Console.WriteLine();
-                System.Console.Write( "+---+---+---+---+---+---+");
-                System.Console.Write(" |");
+                System.Console.Write("+---+---+---+---+---+---+");
+                System.Console.Write(" |"); 
 
                 for (int j = 0; j < size; j++)
                 {
