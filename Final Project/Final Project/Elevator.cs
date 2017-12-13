@@ -9,14 +9,30 @@ namespace Final_Project
     class Elevator
     {
         private double MaxWeight;
-        private Passenger[] Occupants;
+        private Occupant[] Occupants;
 
-        public Elevator(int maxOccupants, double maxWeight);
-
-        public Elevator(double maxWeight, Passenger[] occupants)
+        public Elevator(int maxOccupants, double maxWeight)
         {
-            MaxWeight = maxWeight;
-            Occupants = occupants;
-        }
+            this.MaxWeight = maxWeight;
+
+            Occupants = new Occupant[maxOccupants];
+            }
+            public void AddOccupant(Occupant passenger, int index)
+            {
+                Occupants[index] = passenger;
+
+             }
+        public double GetCurrentWeight()
+            {
+            return this.MaxWeight;
+                }
+            public double IsOverMaxCapacity()
+            {
+                    return this.MaxWeight;
+             }
+
+
+
+            
     }
 }
